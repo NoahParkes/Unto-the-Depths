@@ -1,0 +1,47 @@
+/* RoomCard.css */
+.room-card-container {
+  background-color: #EDEDED;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #282828;
+}
+
+.room-card {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.heading,
+.description,
+.details {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #282828;
+  font-family: 'Arial', sans-serif;
+  resize: none;
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1em;
+  height: 100px;
+}
+
+.details {
+  font-size: 0.9em;
+  height: 150px;
+}
