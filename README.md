@@ -8,3 +8,10 @@ Unto the Depths is a web app for generating point-crawl dungeons for use with th
 - Tailwind CSS
     - css framework
 - Deployment to github pages
+
+## MVP Feature Plan
+- room card as basic plain-text box with room details in rows, no formatting or style
+- random room card is drawn from a deck using a button click
+    - room details are always same on each card
+
+### Build on:
