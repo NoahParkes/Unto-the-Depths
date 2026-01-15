@@ -7,7 +7,7 @@ const RoomCard = () => {
         <textarea
           readOnly
           value="1. SLIMY CROSSROADS (D,T)"
-          className="heading"
+          className="room-header"
         />
         <textarea
           readOnly
@@ -17,6 +17,11 @@ const RoomCard = () => {
         <textarea
           readOnly
           value="A. Room Trap: Well of Filth"
+          className="detail-header"
+        />
+        <textarea
+          readOnly
+          value="A filthy well"
           className="details"
         />
       </div>

@@ -1,0 +1,47 @@
+/* RoomCard.css */
+.room-card-container {
+  background-color: #EDEDED;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #282828;
+}
+
+.room-card {
+  width: 80%;
+  max-width: 600px;
+  border: 3px solid #282828;
+  padding: 10px;
+  background-color: #EDEDED;
+  box-sizing: border-box;
+}
+
+.room-header,
+.detail-header,
+.description,
+.details {
+  width: 100%;
+  border: none;
+  padding: 0px;
+  margin-bottom: 0px;
+  height: fit-content(100%);
+  color: #282828;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.9em;
+  resize: none;
+  background-color: #EDEDED;
+}
+
+.room-header {
+    font-family: 'Boucherie Block W05 Bold';
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.detail-header {
+    font-family: 'Boucherie Block W05 Bold';
+    font-size: 1.1em;
+    font-weight: bold;
+}

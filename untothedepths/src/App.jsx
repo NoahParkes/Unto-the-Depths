@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import RoomCard from './RoomCard'
+import RoomCard from './components/RoomCard'
 
 function App() {
   const [text, setText] = useState('The entrance pipe leads north...')
